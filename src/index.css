@@ -1,13 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;900&display=swap');
+
+:root {
+  --bold: 900;
+  --regular: 400;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: rgb(244, 244, 244);
+  color: #333;
+  font-family: 'Heebo', sans-serif;
+ }
+
+html {
+  font-size: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box
+}
+
+h1 {
+  font-weight: var(--regular);
+}
+
+p {
+  font-size: 1.6 rem;
+
+}
+
+small {
+  font-size: 1.2 rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 40px;
+}
+
+.title {
+  font-size: 4.4rem;
+  text-align: center;
+}
+
+
+/* Search */
+
+.search {
+  border-radius: 1em;
+  color: black;
+  padding: .5em;
+  border: 2px solid black;
 }
